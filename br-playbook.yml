@@ -11,7 +11,7 @@ runtime:
   cache_dir: ./.cache/antora
   # Set log level
   log:
-    failure_level: warn
+    level: debug
 
 # List of common words and terms. For example: Use {br} within documents for replacement
 # Asciidoc syntactical sugar functions
