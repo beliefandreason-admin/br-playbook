@@ -77,12 +77,12 @@ content:
       branches: main
   
   # Mathematics
-  #  - url: https://github.com/beliefandreason-admin/br-mathematics.git
-  #    branches: main
+    - url: https://github.com/beliefandreason-admin/br-mathematics.git
+      branches: main
   
   # Philosophy
-  #  - url: https://github.com/beliefandreason-admin/br-philosophy.git
-  #    branches: main
+    - url: https://github.com/beliefandreason-admin/br-philosophy.git
+      branches: main
   
   # Theology
   #  - url: https://github.com/beliefandreason-admin/br-theology.git
