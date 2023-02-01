@@ -73,8 +73,8 @@ content:
       branches: main
   
   # Information Science
-  #  - url: https://github.com/beliefandreason-admin/br-information-science.git
-  #    branches: main
+    - url: https://github.com/beliefandreason-admin/br-information-science.git
+      branches: main
   
   # Mathematics
   #  - url: https://github.com/beliefandreason-admin/br-mathematics.git
