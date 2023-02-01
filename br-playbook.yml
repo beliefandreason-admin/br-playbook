@@ -54,7 +54,7 @@ content:
     - url: https://github.com/beliefandreason-admin/br-creation.git
       branches: main
   # Daily Devotions
-    - url: https://github.com/beliefandreason-admin/br-dailies.git
+    - url: https://github.com/beliefandreason-admin/br-devotions.git
       branches: main
   # Evolution
     - url: https://github.com/beliefandreason-admin/br-evolution.git
