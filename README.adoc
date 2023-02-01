@@ -1,0 +1,44 @@
+[[belief-and-reason-playbook]]
+= The belief and reason antora playbook
+
+This project is the playbook configuration for Belief and Reason. 
+
+link:https://github.com/jcayouette/belief-and-reason[Belief and Reason Documents]
+
+To build these documents you must have *Antora* installed. 
+link:https://antora.org/[Antora.org] -> Docs, then follow the installation documentation.
+
+Antora requires Nodejs:
+
+== NVM and Node.js installation
+. Install NVM (Node Version manager) on your linux box:
++
+
+----
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+----
+
+. Source your bashrc to update terminal:  
++
+
+----
+source ~/.bashrc`
+----
+
+. Now install the Node.js LTS release. 
+  Alternatively, update an older verison of node on your system using the same command.
++
+
+----
+nvm install --lts
+----
+
+== Install antora local to project (not system wide)
+
+. Enter this project directory and execute the following commands at your terminal:
++
+
+----
+node -e "fs.writeFileSync('package.json', '{}')"    
+npm i -D -E @antora/cli@3.1 @antora/site-generator@3.1    
+----

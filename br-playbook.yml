@@ -1,0 +1,91 @@
+site:
+  title: Belief and Reason
+  url: /
+  start_page: intro-index::index.adoc
+  robots: allow
+
+# Output directory and tmp cache
+output:
+  dir: ./public
+runtime:
+  cache_dir: ./.cache/antora
+  # Set log level
+  log:
+    failure_level: warn
+
+# List of common words and terms. For example: Use {br} within documents for replacement
+# Asciidoc syntactical sugar functions
+asciidoc:
+  attributes:
+    br: "Belief and Reason"
+
+    linkattrs: true # Allows link text, optional target and roles as attributes on links
+    sectlinks: true # Turns section titles into links
+    sectnums: true # Turns on section numbers
+    sectnumlevels: 5 # Number of section levels allowed
+    toclevels: 3 # Number of tables of content levels allowed
+    toc: center # Table of contents at top of document
+    icons: font # Enables font icons
+    experimental: true # Enables button, menu and keyboard macros
+    idprefix: "" # Custom id prefix
+    idseparator: "-" # Custom id separator
+    page-pagination: "" # Custom pagination
+
+# Topic source repository listing - all documents stored on github
+content:
+  sources:
+    - url: https://github.com/jcayouette/br-intro.git
+      branches: main
+      start_path: research
+
+    - url: https://github.com/jcayouette/br-archeology.git
+      branches: main
+
+    - url: https://github.com/jcayouette/br-astronomy.git
+      branches: main
+
+    - url: https://github.com/jcayouette/br-biology.git
+      branches: main
+
+  # - url: https://github.com/jcayouette/br-chemistry.git
+  #   branches: main
+
+  # - url: https://github.com/jcayouette/br-creation.git
+  #   branches: main
+
+  # - url: https://github.com/jcayouette/br-dailies.git
+  #   branches: main
+
+  # - url: https://github.com/jcayouette/br-evolution.git
+  #   branches: main
+
+  # - url: https://github.com/jcayouette/br-geology.git
+  #   branches: main
+
+  # - url: https://github.com/jcayouette/br-history.git
+  #   branches: main
+
+  # - url: https://github.com/jcayouette/br-information-science.git
+  #   branches: main
+
+  # - url: https://github.com/jcayouette/br-mathematics.git
+  #   branches: main
+
+  # - url: https://github.com/jcayouette/br-philosophy.git
+  #   branches: main
+
+  # - url: https://github.com/jcayouette/br-theology.git
+  #   branches: main
+
+# User Interface Configuration
+ui:
+  bundle:
+    # Default Base User Interface
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  # Custom styling for User Interface
+  supplemental_files: ./branding/supplemental-ui
+
+antora:
+  extensions:
+  - '@antora/lunr-extension'
