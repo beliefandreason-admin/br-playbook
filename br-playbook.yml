@@ -59,6 +59,9 @@ content:
   # Daily Devotions
     - url: https://github.com/beliefandreason-admin/br-devotions.git
       branches: main
+  # Dinosaurs
+    - url: https://github.com/beliefandreason-admin/br-dinosaurs.git
+      branches: main
   # Evolution
     - url: https://github.com/beliefandreason-admin/br-evolution.git
       branches: main
