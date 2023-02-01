@@ -1,2 +1,2 @@
 ./clean.sh
-antora br-playbook.yml
+npx antora br-playbook.yml
