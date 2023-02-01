@@ -34,47 +34,47 @@ asciidoc:
 # Topic source repository listing - all documents stored on github
 content:
   sources:
-    - url: https://github.com/jcayouette/br-intro.git
+    - url: https://github.com/beliefandreason-admin/br-intro.git
       branches: main
       start_path: research
 
-    - url: https://github.com/jcayouette/br-archeology.git
+    - url: https://github.com/beliefandreason-admin/br-archeology.git
       branches: main
 
-    - url: https://github.com/jcayouette/br-astronomy.git
+    - url: https://github.com/beliefandreason-admin/br-astronomy.git
       branches: main
 
-    - url: https://github.com/jcayouette/br-biology.git
+    - url: https://github.com/beliefandreason-admin/br-biology.git
       branches: main
 
-  # - url: https://github.com/jcayouette/br-chemistry.git
+  # - url: https://github.com/beliefandreason-admin/br-chemistry.git
   #   branches: main
 
-  # - url: https://github.com/jcayouette/br-creation.git
+  # - url: https://github.com/beliefandreason-admin/br-creation.git
   #   branches: main
 
-  # - url: https://github.com/jcayouette/br-dailies.git
+  # - url: https://github.com/beliefandreason-admin/br-dailies.git
   #   branches: main
 
-  # - url: https://github.com/jcayouette/br-evolution.git
+  # - url: https://github.com/beliefandreason-admin/br-evolution.git
   #   branches: main
 
-  # - url: https://github.com/jcayouette/br-geology.git
+  # - url: https://github.com/beliefandreason-admin/br-geology.git
   #   branches: main
 
-  # - url: https://github.com/jcayouette/br-history.git
+  # - url: https://github.com/beliefandreason-admin/br-history.git
   #   branches: main
 
-  # - url: https://github.com/jcayouette/br-information-science.git
+  # - url: https://github.com/beliefandreason-admin/br-information-science.git
   #   branches: main
 
-  # - url: https://github.com/jcayouette/br-mathematics.git
+  # - url: https://github.com/beliefandreason-admin/br-mathematics.git
   #   branches: main
 
-  # - url: https://github.com/jcayouette/br-philosophy.git
+  # - url: https://github.com/beliefandreason-admin/br-philosophy.git
   #   branches: main
 
-  # - url: https://github.com/jcayouette/br-theology.git
+  # - url: https://github.com/beliefandreason-admin/br-theology.git
   #   branches: main
 
 # User Interface Configuration
