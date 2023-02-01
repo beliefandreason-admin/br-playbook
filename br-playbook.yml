@@ -85,8 +85,8 @@ content:
       branches: main
   
   # Theology
-  #  - url: https://github.com/beliefandreason-admin/br-theology.git
-  #    branches: main
+    - url: https://github.com/beliefandreason-admin/br-theology.git
+      branches: main
 
 # User Interface Configuration
 ui:
