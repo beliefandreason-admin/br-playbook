@@ -50,6 +50,7 @@ i.fa[title="Warning:"] {
 
 .nav-container {
   width: max-content;
+  min-width: 15rem;
 }
 
 /* navbar background color */
