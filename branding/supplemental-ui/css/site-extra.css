@@ -15,7 +15,9 @@ i.fa[title="Warning:"] {
   font-family: inherit;
 }
 
-
+.nav-panel-menu {
+  background-color: #efefef;
+}
 
 /* Top Navbar colors 
 .navbar-brand
@@ -46,10 +48,9 @@ i.fa[title="Warning:"] {
   background-color: #33ba78;
 }
 
-/*
 .nav-container {
   width: max-content;
-} */
+}
 
 /* navbar background color */
 .navbar {

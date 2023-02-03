@@ -95,7 +95,7 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   # Custom styling for User Interface
-  supplemental_files: ./branding/supplemental-ui
+  supplemental_files: ./branding/supplemental-ui/
 
 antora:
   extensions:
