@@ -2,3 +2,12 @@ node_modules/
 build/
 .cache/
 public/
+branding/
+br-playbook.yml
+build.sh
+clean.sh
+CODE_OF_ETHICS.adoc
+package-lock.json
+package.json
+README.adoc
+setkey.sh
