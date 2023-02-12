@@ -44,7 +44,7 @@ content:
   # Astronomy
     - url: https://github.com/beliefandreason-admin/br-astronomy.git
       branches: main
-  # Bible
+  # Bible 
     - url: https://github.com/beliefandreason-admin/br-bible.git
       branches: main
   # Biology
@@ -92,7 +92,7 @@ content:
 ui:
   bundle:
     # Default Base User Interface
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: ./branding/default-ui/ui-bundle.zip
     snapshot: true
   # Custom styling for User Interface
   supplemental_files: ./branding/supplemental-ui/

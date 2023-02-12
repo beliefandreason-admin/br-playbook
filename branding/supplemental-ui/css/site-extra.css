@@ -18,15 +18,16 @@ i.fa[title="Warning:"] {
 .nav-panel-menu {
   background-color: #efefef;
 }
-
-/* Top Navbar colors 
-.navbar-brand
-  .navbar-item:first-child
-  .navbar-brand
-  .navbar-item:first-child
-  a {
-  background-color: #0b322c;
-} */
+/* Branding logo first child */
+.navbar-brand .navbar-item:first-child:not(:last-child) {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+/* Branding logo last child */
+a.last-child {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
 
  Nav menu 
 .nav-menu {
@@ -41,11 +42,12 @@ i.fa[title="Warning:"] {
 }
 
 .navbar-link {
-  background-color: #0a322c;
+  background-color: hsl(198, 100%, 15%);
 }
 
-.navbar-link:hover {
-  background-color: #33ba78;
+.navbar-end .navbar-link:hover {
+  background: hsl(198, 0%, 91%) ;
+  color: hsl(198, 0%, 40%);
 }
 
 .nav-container {
@@ -55,7 +57,7 @@ i.fa[title="Warning:"] {
 
 /* navbar background color */
 .navbar {
-  background-color: #0a322c;
+  background-color: hsl(198, 100%, 15%);
 }
 
 /* Tool bar */
@@ -157,11 +159,9 @@ html, body {
   text-rendering: optimizeLegibility;
 }
 
-/* Font for side toc
-.article-aside {
-  font-family: 'Montserrat', sans-serif;
+aside.toc.sidebar {
+  flex-basis: 16rem;
 }
- */
 
 /* color for pre literal boxes code should use [source, language]*/
 pre {
@@ -199,8 +199,19 @@ pre {
   padding-top: 10px;
 }
 
-.toc.sidebar .toc-menu {
-  position: fixed;
+.toc.sidebar .toc-menu h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 4.5rem;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  font-size: 1.4rem;
+  justify-content: flex-end;
 }
 
 .toc .toc-menu a {
@@ -291,6 +302,11 @@ tr:nth-child(even) {
   font-weight: 600;
   background-color: unset;
   border-radius: unset;
+}
+
+.doc p {
+  margin: 0 0 60px 0;
+  padding: 0 0 0 0;
 }
 
 /* dd lists*/
