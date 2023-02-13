@@ -77,7 +77,7 @@ a.last-child {
 .is-current-page>.nav-link, .is-current-page>.nav-text {
   font-weight: 700;
   color: #fff;
-  background-color: #33ba78;
+  background-color: #00364d;
   padding-left: 6px;
   padding-right: 10px;
   padding-top: 8px;
@@ -97,7 +97,7 @@ a:hover {
 }
 
 .doc a, .doc a:visited {
-  color: #26915e;
+  color: #00364d;
   
 }
 
@@ -108,21 +108,21 @@ background-color: #0a322c;
 
 /* Plain links in paragraphs and body */
 .doc a.bare {
-  color:  #26915e;
+  color:  #00364d;
   font-weight: 500;
 }
 
 .doc a.bare :hover {
-  color: #26915e;
+  color: #00364d;
 }
 
 /* TOC links and heading links */
 .doc a, .doc a:visited {
-  color: #26915e;
+  color: #00364d;
 }
 
 .doc a:hover {
-  color: #26915e;
+  color: #00364d;
 }
 
 .doc .listingblock pre:not(.highlight), .doc .literalblock pre, .doc pre.highlight code {
@@ -139,7 +139,7 @@ background-color: #0a322c;
 /* Heading colors in article */
 h1.page {
   color: #0C322C;
-  background-color: #90ebcd5c;
+  background-color: #efefef;
 }
 
 .doc h2 {
@@ -481,7 +481,30 @@ ul.sectlevel1 {
 }
 
 ::marker {
-  color: #26915e;
+  color: #00364d;
   font-size: large;
   font-weight: 500;
+}
+
+.doc .quoteblock, .doc .verseblock {
+  background: #efefef;
+  border-left: 5px solid #5d5d5d;
+  color: #5d5d5d;
+}
+
+.doc .quoteblock blockquote {
+  margin-top: 1rem;
+  color: #d50000;
+}
+
+.attribution {
+  color: #d50000;
+}
+
+ul.bibliography {
+  font-style: italic;
+}
+
+div.title {
+  font-size: 1.2em;
 }
