@@ -88,7 +88,7 @@ content:
     - url: https://github.com/beliefandreason-admin/br-theology.git
       branches: main
 
-  # Javascript Training
+  # Code Development
     - url: https://github.com/beliefandreason-admin/br-code.git
       branches: main
 
