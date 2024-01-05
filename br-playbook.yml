@@ -29,8 +29,7 @@ asciidoc:
     experimental: true # Enables button, menu and keyboard macros
     idprefix: "" # Custom id prefix
     idseparator: "-" # Custom id separator
-    page-pagination: "" # Custom pagination
-    docdatetime: true
+    page-pagination: "" # Custom pagination 
 
 # Topic source repository listing - all documents stored on github
 content:
