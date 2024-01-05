@@ -30,6 +30,7 @@ asciidoc:
     idprefix: "" # Custom id prefix
     idseparator: "-" # Custom id separator
     page-pagination: "" # Custom pagination
+    docdatetime: true
 
 # Topic source repository listing - all documents stored on github
 content:
