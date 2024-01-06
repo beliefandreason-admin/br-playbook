@@ -1,7 +1,7 @@
 site:
   title: Belief and Reason
   url: /
-  start_page: ROOT::index.adoc
+  start_page: bar::index.adoc
   robots: allow
 
 # Output directory and tmp cache
@@ -36,7 +36,7 @@ content:
   sources:
     - url: https://github.com/beliefandreason-admin/bar-data.git
       branches: main
-      start_path: .
+      #start_path: .
 
 # User Interface Configuration
 ui:
