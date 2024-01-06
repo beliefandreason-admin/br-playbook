@@ -35,62 +35,9 @@ asciidoc:
 content:
   sources:
   # Intro
-    - url: https://github.com/beliefandreason-admin/br-intro.git
+    - url: https://github.com/beliefandreason-admin/bar-data.git
       branches: main
-      start_path: research
-  # Archeology
-    - url: https://github.com/beliefandreason-admin/br-archeology.git
-      branches: main
-  # Astronomy
-    - url: https://github.com/beliefandreason-admin/br-astronomy.git
-      branches: main
-  # Bible 
-    - url: https://github.com/beliefandreason-admin/br-bible.git
-      branches: main
-  # Biology
-    - url: https://github.com/beliefandreason-admin/br-biology.git
-      branches: main
-  # Chemistry
-    - url: https://github.com/beliefandreason-admin/br-chemistry.git
-      branches: main
-  # Creation
-    - url: https://github.com/beliefandreason-admin/br-creation.git
-      branches: main
-  # Daily Devotions
-    - url: https://github.com/beliefandreason-admin/br-devotions.git
-      branches: main
-  # Dinosaurs
-    - url: https://github.com/beliefandreason-admin/br-dinosaurs.git
-      branches: main
-  # Evolution
-    - url: https://github.com/beliefandreason-admin/br-evolution.git
-      branches: main
-  # Geology
-    - url: https://github.com/beliefandreason-admin/br-geology.git
-      branches: main
-  # History
-    - url: https://github.com/beliefandreason-admin/br-history.git
-      branches: main
-  
-  # Information Science
-    - url: https://github.com/beliefandreason-admin/br-information-science.git
-      branches: main
-  
-  # Mathematics
-    - url: https://github.com/beliefandreason-admin/br-mathematics.git
-      branches: main
-  
-  # Philosophy
-    - url: https://github.com/beliefandreason-admin/br-philosophy.git
-      branches: main
-  
-  # Theology
-    - url: https://github.com/beliefandreason-admin/br-theology.git
-      branches: main
-
-  # Code Development
-    - url: https://github.com/beliefandreason-admin/br-code.git
-      branches: main
+      #start_path: research
 
 # User Interface Configuration
 ui:
