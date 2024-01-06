@@ -1,7 +1,7 @@
 site:
   title: Belief and Reason
   url: /
-  start_page: home::index.adoc
+  start_page: ROOT::index.adoc
   robots: allow
 
 # Output directory and tmp cache
@@ -34,10 +34,9 @@ asciidoc:
 # Topic source repository listing - all documents stored on github
 content:
   sources:
-  # Intro
     - url: https://github.com/beliefandreason-admin/bar-data.git
       branches: main
-      #start_path: research
+      start_path: .
 
 # User Interface Configuration
 ui:
