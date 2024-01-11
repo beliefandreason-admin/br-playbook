@@ -27,9 +27,7 @@
         <span class="separator">//</span>
         <a href="https://beliefandreason.com">Research</a>
       </div>
-      <div class="navbar-item search hide-for-print">
-        <input id="search-input" type="text" placeholder="Search the docs">
-      </div>
+      <div id="docsearch"></div>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
@@ -144,12 +142,17 @@
 <div class="sect1">
 <h2 id="what-is-astronomy"><a class="anchor" href="#what-is-astronomy"></a><a class="link" href="#what-is-astronomy">1. What is Astronomy?</a></h2>
 <div class="sectionbody">
-
+<div class="paragraph">
+<p>here is some content to look at!</p>
+</div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="what-is-cosmology"><a class="anchor" href="#what-is-cosmology"></a><a class="link" href="#what-is-cosmology">2. What is Cosmology?</a></h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>What is Cosmology? What is its purpose?</p>
+</div>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -180,7 +183,7 @@ docsearch({
     apiKey: '7e13fcf1b19d358cb29b6a272bc189f7',
     indexName: 'beliefandreason',
     insights: true,
-    container: '#search-input',
+    container: '#docsearch',
     debug: true
   });
 </script>
