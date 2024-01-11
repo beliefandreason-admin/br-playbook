@@ -47,6 +47,3 @@ ui:
   # Custom styling for User Interface
   supplemental_files: ./branding/supplemental-ui/
 
-antora:
-  extensions:
-  - '@antora/lunr-extension'
