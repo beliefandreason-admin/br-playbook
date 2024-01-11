@@ -1,6 +1,6 @@
 site:
   title: Belief and Reason
-  url: /
+  url: https://beliefandreason.com
   start_page: bar::index.adoc
   robots: allow
 
