@@ -38,14 +38,4 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
-    # Crawl new content with Algolia Crawler (Update search indexes)
-    - name: Algolia crawler creation and crawl
-      uses: algolia/algoliasearch-crawler-github-actions@v1.0.11
-      id: algolia_crawler
-      with: # mandatory parameters
-        crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
-        crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
-        algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
-        algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-        site-url: 'https://beliefandreason.com/'
-        override-config: true
+
