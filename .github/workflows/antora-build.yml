@@ -40,7 +40,7 @@ jobs:
       uses: actions/deploy-pages@v2
     # Crawl new content with Algolia Crawler (Update search indexes)
     - name: Algolia crawler creation and crawl
-      uses: algolia/algoliasearch-crawler-github-actions@v1.0.10
+      uses: algolia/algoliasearch-crawler-github-actions@v1.0.11
       id: algolia_crawler
       with: # mandatory parameters
         crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
