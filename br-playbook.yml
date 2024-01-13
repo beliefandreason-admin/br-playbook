@@ -4,9 +4,7 @@ site:
   start_page: bar::index.adoc
   robots: allow
 
-# Output directory and tmp cache
-output:
-  dir: ./public
+#tmp cache
 runtime:
   cache_dir: ./.cache/antora
   # Set log level
