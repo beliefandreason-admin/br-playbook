@@ -1,4 +1,4 @@
 ./clean.sh
 npx antora br-playbook.yml
-cd public
+cd build/site
 explorer.exe index.html

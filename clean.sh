@@ -1,2 +1,2 @@
-rm -rf public/
+rm -rf build/site
 rm -rf .cache/
