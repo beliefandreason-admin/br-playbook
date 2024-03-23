@@ -3,6 +3,23 @@ i.fa[title="Note:"] {
   font-family: inherit;
 }
 
+.navbar-link::after {
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    content: "";
+    display: block;
+    height: .5em;
+    pointer-events: none;
+    position: absolute;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: .5em;
+    margin-top: -.375em;
+    right: 1.125em;
+    top: 50%;
+    visibility: hidden;
+}
+
 body {
   font-family: 'Bitter', serif;
 }
