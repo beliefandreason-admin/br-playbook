@@ -28,6 +28,7 @@ asciidoc:
     idprefix: "" # Custom id prefix
     idseparator: "-" # Custom id separator
     page-pagination: "" # Custom pagination 
+    construction: "This page is under construction. Please check back later." # Custom construction message
 
 # Topic source repository listing - all documents stored on github
 content:
