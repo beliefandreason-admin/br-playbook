@@ -534,4 +534,8 @@ a.rtBibleRef {
   color: #0080FF;
 }
 
+.doc a:hover {
+  color: #66B2FF;
+}
+
 
