@@ -22,7 +22,7 @@ asciidoc:
     sectnums: true # Turns on section numbers
     sectnumlevels: 5 # Number of section levels allowed
     toclevels: 3 # Number of tables of content levels allowed
-    toc: center # Table of contents at top of document
+    #toc: center # Table of contents at top of document
     icons: font # Enables font icons
     experimental: true # Enables button, menu and keyboard macros
     idprefix: "" # Custom id prefix
