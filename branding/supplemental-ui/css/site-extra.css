@@ -509,16 +509,6 @@ ul.sectlevel1 {
   color: #5d5d5d;
 }
 
-.doc .quoteblock blockquote {
-  margin-top: 1rem;
-  color: #d50000;
-}
-
-.doc .quoteblock .attribution {
-  color: #d50000;
-  font-size: .83333rem;
-  margin-top: .75rem;
-}
 
 ul.bibliography {
   font-style: italic;
@@ -536,6 +526,21 @@ a.rtBibleRef {
 
 .doc a:hover {
   color: #66B2FF;
+}
+
+.doc .quoteblock .attribution {
+  color: #45a3f8;
+  font-size: .83333rem;
+  margin-top: .75rem;
+}
+
+.doc .quoteblock blockquote {
+  margin-top: 1rem;
+  color: #00364d;
+}
+
+.doc .quoteblock {
+  padding: .25rem 1.2rem 1.2rem;
 }
 
 
