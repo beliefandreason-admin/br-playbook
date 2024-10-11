@@ -1,7 +1,7 @@
 [[belief-and-reason-playbook]]
 = The belief and reason antora playbook
 
-
+t
 
 This project is the playbook configuration for Belief and Reason. 
 
